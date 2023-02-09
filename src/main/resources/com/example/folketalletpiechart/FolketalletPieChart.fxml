@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.folketalletpiechart.HelloController">
+   <children>
+      <PieChart fx:id="pie2030" layoutX="328.0" layoutY="2.0" prefHeight="278.0" prefWidth="263.0" title="2030" />
+      <PieChart fx:id="pie2020" labelLineLength="40.0" layoutX="9.0" layoutY="9.0" prefHeight="278.0" prefWidth="263.0" title="2020" />
+      <Button layoutX="75.0" layoutY="337.0" mnemonicParsing="false" onAction="#draw2020" text="Draw 2020" />
+      <Button layoutX="495.0" layoutY="337.0" mnemonicParsing="false" onAction="#draw2030" text="Draw 2030" />
+   </children>
+</AnchorPane>
